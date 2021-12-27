@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+   
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: black;}
+body { 
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    line-height: 26px; color: black;
+}
+
+
+.top{background:rgba(0, 0, 0, 0.3); position: absolute;top:0; left: 0; width: 100%; height: 100px;}
+
+
+.top_inner{ width: 1400px; margin: 0 auto;}
+.top_inner li{float: left; padding-top: 10px;}
+.nav li{float: left;}
+.nav li a:hover{color: #ccc;}
+.logo{float: left; padding-top: 10px;}
+.nav{position: absolute; left: 50%; top: 0;  margin-left: -347px;}
+.nav a{font-weight: bold; color: #fff; font-size: 25px; display: block; padding: 35px 75px;}
+.bg{width: 100%; height: 761px;  text-align: center; background: url(../images/bg.jpg) no-repeat center top;}
+h1{font-family:'yg-jalnan'; font-size: 70px; color: #fff; text-align: center;padding-top: 250px; line-height: 80px;} 
+h2{font-size: 50px; color: #fff; margin: auto; line-height: 60px; padding-top: 50px;}
+.bar{width: 1320px;  margin: 100px auto;}
+.co li{float: left; width: 440px;  }
+.co li a{display: block; padding: 10px 0; text-align: center;}
+.co li a:hover{background-color: #7e4d0c; color: #fff;}
+.coffee{background-color: #f9e2c4;}
+.fr{background-color: #dfbb8d;}
+.ade{background-color: #be9d6e;}
+.best{margin-top: 10px; color:#7e4d0c;}
+.one{height: 465px;}
+.one li{float: left; width: 33.33%; text-align: center;}
+.one p{color: #7e4d0c; text-align: center; font-size: 30px; line-height: 40px;}
+.bg2{height: 1000px; margin: auto; width: 1320px;}
+.he{height: 1000px;}
+.he li{float: left; width: 25%; text-align: center; padding: 20px 0;}
+.he li img{transition: all 0.5s;}
+.he li:hover img{transform: scale(1.05);}
+.br{color: #7e4d0c; text-align: center; font-size: 20px; line-height: 30px;}
+.price{color: #7e4d0c; text-align: center; font-size: 30px;}
+
+
+    .footer{width: 100%; height:250px; background-color: #ccc;
+    margin: auto; }
+    .footer_inner{   width: 1220px; margin: auto;   font-size: 15px; padding-top: 30px; }
+    .text1 li{float: left; padding-right:24px ; margin-right: 30px; }
+    .footer_inner li a{color: #fff;}
+    .tel{color: #fff; font-size: 18px; clear: both; padding-top: 20px; font-family:'Noto Sans KR';}
+    .text1 li a:hover{color:maroon;}
+    .sns{float: right;}
+    .sns li{opacity: 0.5; float: left; padding-left: 20px;}
+    .sns li:hover{opacity: 1;}
+br{color: rgba(0, 0, 0, 0);}
+
